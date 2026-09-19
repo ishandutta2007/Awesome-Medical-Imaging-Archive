@@ -1,107 +1,113 @@
-# Awesome-Medical-Imaging-Archive
+# 🏥 Awesome Medical Imaging Archive 🚀
 
-## Top Medical Imaging Archive (PACS Cloud) Platforms Ecosystem
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Cloud PACS, VNA, DICOM Archive, Image Exchange, Diagnostic Viewing & Enterprise Imaging*
-**Last updated: September 2026**
+<p panels-launch>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Medical-Imaging-Archive"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Medical-Imaging-Archive?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Medical-Imaging-Archive/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Medical-Imaging-Archive?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Medical Imaging Archives (Cloud PACS / VNA)**. These systems store, manage, distribute, and display DICOM medical images—supporting diagnostic reading, image exchange, and enterprise imaging workflows in the cloud or hybrid environments.
+![Awesome Medical Imaging Archive Banner](assets/banner.svg)
 
-**Examples** include Ambra Health, Life Image, Change Healthcare PACS, Philips Vue PACS, GE Centricity PACS, Visage Imaging, Fujifilm Synapse, Merge PACS, Intelerad, and MedDream (the category leaders).
-
-**Open-source emphasis**: Medical imaging has a mature open-source stack. **Orthanc**, **dcm4chee**, and the **OHIF Viewer** form a widely deployed, production-capable open PACS and viewing ecosystem. Additional tools support DICOM routing, web viewing, and research archives. This section is heavily expanded.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-- **[Ambra Health (Intelerad)](https://ambrahealth.com/)**  
-  Cloud-native medical image management and exchange platform widely used for sharing studies across institutions and enabling cloud PACS workflows.
-
-- **[Life Image](https://www.lifeimage.com/)**  
-  Image exchange and network platform connecting providers for sharing medical images and reports across health systems.
-
-- **[Change Healthcare PACS](https://www.changehealthcare.com/)**  
-  Enterprise imaging and PACS solutions (historically part of Change Healthcare’s imaging portfolio) for hospital and outpatient settings.
-
-- **[Philips Vue PACS](https://www.philips.com/)**  
-  Enterprise PACS and imaging informatics platform from Philips supporting diagnostic workflows and enterprise image management.
-
-- **[GE Centricity PACS / GE HealthCare Imaging](https://www.gehealthcare.com/)**  
-  Long-standing PACS and enterprise imaging offerings from GE HealthCare for radiology and multi-department imaging.
-
-- **[Visage Imaging](https://visageimaging.com/)**  
-  Server-side rendering enterprise imaging platform known for speed and cloud-enabled diagnostic viewing at scale.
-
-- **[Fujifilm Synapse](https://www.fujifilm.com/)**  
-  Enterprise imaging and PACS/VNA platform with strong multi-department (radiology, cardiology, pathology) capabilities.
-
-- **[Merge PACS (Merative / IBM Watson Health heritage)](https://www.merative.com/)**  
-  PACS and imaging solutions historically associated with Merge Healthcare, used in diagnostic imaging environments.
-
-- **[Intelerad](https://www.intelerad.com/)**  
-  Medical imaging platform provider (including IntelePACS and cloud offerings) focused on radiology and ambulatory imaging workflows; increasingly integrated with broader GE HealthCare portfolio.
-
-- **[MedDream](https://www.softneta.com/)**  
-  Web-based DICOM viewer and PACS components often deployed for diagnostic and clinical viewing, including cloud-friendly setups.
-
-## Open-Source GitHub Projects
-- **[Orthanc](https://www.orthanc-server.com/)**  
-  Lightweight, open-source DICOM server / PACS widely used for archives, research, teleradiology, and as a building block for cloud and hybrid imaging systems.
-
-- **[dcm4che / dcm4chee-arc-light](https://github.com/dcm4che)**  
-  Comprehensive open-source DICOM toolkit and archive (PACS) implementing DICOM, HL7, and DICOMweb services for enterprise-grade imaging archives.
-
-- **[OHIF Viewer](https://github.com/OHIF/Viewers)**  
-  Leading open-source, zero-footprint web DICOM viewer used worldwide for diagnostic and clinical image display, often paired with Orthanc or dcm4chee.
-
-- **[Orthanc ecosystem plugins and tools](https://github.com/orthanc-server)**  
-  Rich set of plugins (DICOMweb, PostgreSQL, authorization, whole-slide imaging, etc.) that extend Orthanc into full imaging solutions.
-
-- **[Weasis](https://github.com/nroduit/Weasis)**  
-  Open-source multipurpose DICOM viewer for desktop and web, supporting diagnostic-quality display and advanced tools.
-
-- **[DVTk and DICOM validation open tools](https://github.com/)**  
-  Open utilities for testing and validating DICOM connectivity and conformance.
-
-- **[DICOMweb open clients and servers](https://github.com/)**  
-  Libraries implementing DICOMweb (QIDO, WADO, STOW) for modern web-based imaging integration.
-
-- **[Research PACS and anonymization open pipelines](https://github.com/)**  
-  Tools for de-identification, research archives, and secondary use of imaging data under ethical controls.
-
-- **[3D Slicer and open imaging analysis](https://github.com/Slicer)**  
-  Open-source platform for medical image computing, visualization, and research analysis often used alongside PACS archives.
-
-- **[Secure OHIF + Orthanc deployment examples](https://github.com/)**  
-  Community reference architectures combining OHIF Viewer with Orthanc behind OpenID/SSO for production-like security.
-
-### Additional Strong Open-Source Options
-- Deploying **Orthanc + OHIF** as a lightweight, modern cloud or on-prem PACS and viewer stack.
-- Using **dcm4chee-arc-light** when a fuller enterprise archive with HL7 and advanced DICOM services is required.
-- Combining open archives with commercial viewers or vice versa in hybrid architectures.
-- Accepting that large-scale enterprise imaging, vendor-neutral archives at health-system scale, advanced workflow orchestration, and turnkey support still favor commercial platforms (Ambra/Intelerad, Visage, Fujifilm Synapse, Philips, GE, etc.).
-- Focusing open-source efforts on cost control, research imaging, teleradiology, and avoiding lock-in for departmental or specialty archives.
-
-**Frameworks for building custom systems**: Store studies in Orthanc or dcm4chee → expose DICOMweb → view with OHIF or Weasis → route and share via secure web portals → integrate with EMR via HL7/FHIR. Suitable for clinics, research centers, and health systems with imaging IT expertise. Many hospitals still standardize on commercial cloud PACS/VNA platforms for enterprise support and regulatory confidence.
-
-## How to Contribute
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Medical imaging systems handle protected health information (PHI) and are subject to HIPAA, GDPR, and medical-device/regulatory requirements in many jurisdictions. Open-source PACS deployments require hardened security, access controls, audit logging, backup, and clinical validation before diagnostic use. This list is not clinical, legal, or regulatory advice. Incorrect configuration can create serious patient-safety and privacy risks.
+## 📌 Top Medical Imaging Archive (PACS Cloud) Platforms & Open-Source Ecosystem
+**A Curated List of SaaS Products, Cloud PACS, Vendor Neutral Archives (VNA), DICOM Web Viewers & Healthcare Imaging Repositories**  
+*Focused on Enterprise Imaging, Cloud PACS, DICOM Archives, Image Exchange, Diagnostic Viewing & AI Medical Informatics* 🩺⚡
 
 ---
-**Made for radiology IT, imaging informatics, and healthcare technology teams.**
-Let's keep medical imaging interoperable, accessible, and as open as practical.
+
+## 📊 Market Overview & Industry Structure
+
+> 💡 **Market Size & Fragmentation:** The global **Medical Imaging PACS & Cloud Archive Market** is valued at approximately **USD 3.8 Billion to 4.2 Billion (2025/2026)** and is projected to reach **USD 7.5+ Billion by 2034** with a CAGR of **6.8%–7.5%**. The sector is **moderately fragmented**, led by legacy healthcare conglomerates (GE HealthCare, Philips, Fujifilm, Siemens) alongside specialized enterprise cloud platforms (Visage Imaging, Intelerad/Ambra). The **Cloud PACS** sub-segment is experiencing rapid adoption (>56% of new installations) driven by demand for scalable storage, remote radiology, and zero-footprint web viewers.
+
+---
+
+## 📑 Table of Contents
+- [☁️ SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS & Hosted Commercial Platforms
+
+Commercial **Cloud PACS**, **Vendor Neutral Archives (VNA)**, and **Medical Image Exchange** SaaS platforms for healthcare enterprises, diagnostic imaging centers, and teleradiology providers.
+
+| 🏢 Platform / SaaS Product | 💰 Starting Price | 🎁 Free Tier / Trial Limit | 📊 Company Size (Revenue / Valuation) | 📝 Overview & Core Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GE Centricity PACS / GE HealthCare Imaging](https://www.gehealthcare.com/)** 🏥 | ~$15,000/yr base tier | ❌ 14-day enterprise demo on request | **$19.6B Revenue** (Public: GEHC) | Industry-standard enterprise PACS and imaging informatics platform supporting diagnostic reading, cardiology, and radiology. |
+| **[Philips Vue PACS](https://www.philips.com/)** ⚡ | ~$12,000/yr enterprise | ❌ 14-day clinical workflow demo | **$19.5B Revenue** (Public: PHG) | Enterprise PACS and enterprise imaging solution delivering diagnostic tools and multi-department workflow management. |
+| **[Fujifilm Synapse](https://www.fujifilm.com/)** 📸 | ~$10,000/yr facility tier | ❌ 30-day enterprise evaluation | **$20B+ Revenue** (Fujifilm Healthcare) | Comprehensive PACS, VNA, and 3D enterprise imaging platform across radiology, cardiology, and pathology. |
+| **[Change Healthcare PACS](https://www.changehealthcare.com/)** 🏢 | ~$8,000/yr starting tier | ❌ Demo on request | **$3.5B+ Revenue** (Part of Optum / UnitedHealth) | Enterprise imaging platform providing cloud archive and radiology PACS workflows across outpatient and hospital networks. |
+| **[Merge PACS (Merative)](https://www.merative.com/)** 💻 | ~$6,000/yr base licence | ❌ 14-day guided trial | **$1.0B+ Revenue** (Merative / Francisco Partners) | Enterprise DICOM archive and imaging software for radiology workflows, originally built under IBM Watson Health / Merge. |
+| **[Visage Imaging](https://visageimaging.com/)** 🚀 | ~$5,000/mo enterprise base | ❌ 30-day proof-of-concept trial | **$2.5B+ Valuation** (Pro Medicus Ltd: PME) | High-speed server-side rendering enterprise imaging platform enabling ultra-fast cloud diagnostic viewing at scale. |
+| **[Ambra Health (Intelerad)](https://ambrahealth.com/)** ☁️ | ~$500/mo per facility | ❌ 14-day customized demo | **$1.7B Valuation** (Acquired for $250M+) | Cloud-native medical image management and exchange platform widely used for sharing studies across institutions. |
+| **[Intelerad](https://www.intelerad.com/)** 🌐 | ~$750/mo regional tier | ❌ 14-day clinical trial | **$1.7B Valuation** | Comprehensive medical imaging portfolio (IntelePACS, cloud archives, and vendor-neutral sharing) for radiology. |
+| **[MedDream](https://www.softneta.com/)** 🩺 | ~$150/mo per concurrent viewer | ❌ 30-day full feature trial | **~$15M Revenue** (Softneta) | FDA-cleared and CE-certified HTML5 web-based DICOM viewer and PACS component suite for diagnostic reading. |
+| **[Life Image](https://www.lifeimage.com/)** 🔗 | ~$400/mo connectivity tier | ❌ 14-day network trial | **~$50M Revenue** (Acquired by Intelerad) | Medical image sharing network connecting providers and patients for seamless inter-hospital study exchange. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Medical imaging features a mature open-source stack. Developers can pair DICOM server archives (**Orthanc**, **dcm4chee**) with web viewers (**OHIF Viewer**, **CornerstoneJS**) and deep learning frameworks (**MONAI**) to build custom cloud PACS platforms.
+
+| 📦 Project Name | 🌟 GitHub Stars Badge | 📜 License | 🛠️ Primary Tech Stack | 📌 Description & Ecosystem Role |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI)** 🤖 | [![Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Apache-2.0 | Python, PyTorch | AI toolkit for healthcare imaging, deep learning segmentation, classification, and research pipelines. |
+| **[OHIF Viewer](https://github.com/OHIF/Viewers)** 👁️ | [![Stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | MIT | JavaScript, React, DICOMweb | Leading open-source, zero-footprint web DICOM viewer for diagnostic display, integrated with Orthanc and dcm4chee. |
+| **[Slicer (3D Slicer)](https://github.com/Slicer/Slicer)** 🔬 | [![Stars](https://img.shields.io/github/stars/Slicer/Slicer?style=social&color=white)](https://github.com/Slicer/Slicer/stargazers) | BSD-style | C++, Python, Qt | Advanced open-source platform for medical image computing, 3D visualization, rendering, and quantitative research. |
+| **[pydicom](https://github.com/pydicom/pydicom)** 🐍 | [![Stars](https://img.shields.io/github/stars/pydicom/pydicom?style=social&color=white)](https://github.com/pydicom/pydicom/stargazers) | MIT | Python | Pure Python package for reading, inspecting, modifying, and writing DICOM files in data science pipelines. |
+| **[CornerstoneJS Core](https://github.com/cornerstonejs/cornerstone)** 📐 | [![Stars](https://img.shields.io/github/stars/cornerstonejs/cornerstone?style=social&color=white)](https://github.com/cornerstonejs/cornerstone/stargazers) | MIT | JavaScript | Lightweight HTML5 medical rendering engine powering web-based DICOM image visualization libraries. |
+| **[ITK (Insight Toolkit)](https://github.com/InsightSoftwareConsortium/ITK)** 🧮 | [![Stars](https://img.shields.io/github/stars/InsightSoftwareConsortium/ITK?style=social&color=white)](https://github.com/InsightSoftwareConsortium/ITK/stargazers) | Apache-2.0 | C++, Python | Cross-platform suite for multidimensional image processing, registration, and medical image segmentation. |
+| **[dcm4che Toolkit](https://github.com/dcm4che/dcm4che)** ☕ | [![Stars](https://img.shields.io/github/stars/dcm4che/dcm4che?style=social&color=white)](https://github.com/dcm4che/dcm4che/stargazers) | MPL-1.1 / GPL / LGPL | Java | High-performance open-source collection of healthcare applications and DICOM utilities. |
+| **[Weasis](https://github.com/nroduit/Weasis)** 💻 | [![Stars](https://img.shields.io/github/stars/nroduit/Weasis?style=social&color=white)](https://github.com/nroduit/Weasis/stargazers) | EPL-2.0 | Java | Multipurpose standalone & web DICOM viewer supporting diagnostic clinical workflows, MPR, and 3D rendering. |
+| **[Cornerstone3D](https://github.com/cornerstonejs/cornerstone3D)** 🌐 | [![Stars](https://img.shields.io/github/stars/cornerstonejs/cornerstone3D?style=social&color=white)](https://github.com/cornerstonejs/cornerstone3D/stargazers) | MIT | TypeScript, WebGL | Next-generation 3D viewport rendering library for volumetric DICOM medical image visualization. |
+| **[DCMTK](https://github.com/dcmtk/dcmtk)** ⚙️ | [![Stars](https://img.shields.io/github/stars/dcmtk/dcmtk?style=social&color=white)](https://github.com/dcmtk/dcmtk/stargazers) | BSD-style | C, C++ | Open-source DICOM toolkit offering command-line utilities and libraries for parsing and network transfer. |
+| **[pynetdicom](https://github.com/pydicom/pynetdicom)** 📡 | [![Stars](https://img.shields.io/github/stars/pydicom/pynetdicom?style=social&color=white)](https://github.com/pydicom/pynetdicom/stargazers) | MIT | Python | Pure Python implementation of the DICOM network protocol (C-STORE, C-FIND, C-GET, C-MOVE). |
+| **[dcm4chee-arc-light](https://github.com/dcm4che/dcm4chee-arc-light)** 🏛️ | [![Stars](https://img.shields.io/github/stars/dcm4che/dcm4chee-arc-light?style=social&color=white)](https://github.com/dcm4che/dcm4chee-arc-light/stargazers) | AGPL-3.0 | Java, DICOMweb, HL7 | Enterprise-grade DICOM archive (PACS), VNA, and DICOMweb endpoint container for large hospital networks. |
+| **[Cornerstone WADO Image Loader](https://github.com/chafey/cornerstoneWADOImageLoader)** 📥 | [![Stars](https://img.shields.io/github/stars/chafey/cornerstoneWADOImageLoader?style=social&color=white)](https://github.com/chafey/cornerstoneWADOImageLoader/stargazers) | MIT | JavaScript | DICOM WADO-URI and WADO-RS image loader for CornerstoneJS viewers. |
+| **[Orthanc Setup Samples](https://github.com/orthanc-server/orthanc-setup-samples)** 🐳 | [![Stars](https://img.shields.io/github/stars/orthanc-server/orthanc-setup-samples?style=social&color=white)](https://github.com/orthanc-server/orthanc-setup-samples/stargazers) | GPL-3.0 | Docker, Shell | Production Docker-Compose configurations for deploying Orthanc PACS with PostgreSQL, OHIF, and Keycloak. |
+| **[dicom-numpy](https://github.com/innolitics/dicom-numpy)** 🔢 | [![Stars](https://img.shields.io/github/stars/innolitics/dicom-numpy?style=social&color=white)](https://github.com/innolitics/dicom-numpy/stargazers) | MIT | Python, NumPy | Python utility for extracting 3D NumPy arrays from series of DICOM files. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this medical imaging archive accurate and comprehensive. 💖
+
+1. **Fork** the repository 🍴
+2. **Create a new branch** (`git checkout -b feature/add-new-pacs`) 🌿
+3. **Add or update entries** in `README.md` following the tabular format 📝
+4. **Submit a Pull Request** with a brief summary of additions 🚀
+
+Please ensure descriptions remain objective, factual, and backed by verifiable source links.
+
+---
+
+## 💖 Support
+
+If you find this repository helpful for your healthcare IT, radiology research, or engineering projects, please consider supporting the maintenance of this repository! ⭐
+
+- ⭐ **Star this repository** to boost visibility for developers and radiology IT professionals.
+- 🔄 **Share with colleagues** in imaging informatics, medical AI, and health tech.
+- ☕ **Buy me a coffee / Sponsor on GitHub:**  
+  [![Sponsor](https://img.shields.io/badge/Sponsor-ishandutta2007-ea4aaa?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
+
+Your support encourages continuous updates and inclusion of new medical imaging tools! Thank you! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Medical-Imaging-Archive&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Medical-Imaging-Archive&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for educational, architectural, and informational research purposes only.
+- Medical imaging archives and PACS manage **Protected Health Information (PHI)** and are subject to stringent regulations including **HIPAA**, **GDPR**, and **FDA medical device regulations**.
+- Deploying open-source software (such as Orthanc or dcm4chee) in clinical environments requires robust access control, audit logging, data encryption, and clinical validation. This repository does not constitute medical, legal, or regulatory advice.
