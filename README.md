@@ -54,7 +54,7 @@ Commercial **Cloud PACS**, **Vendor Neutral Archives (VNA)**, and **Medical Imag
 
 Medical imaging features a mature open-source stack. Developers can pair DICOM server archives (**Orthanc**, **dcm4chee**) with web viewers (**OHIF Viewer**, **CornerstoneJS**) and deep learning frameworks (**MONAI**) to build custom cloud PACS platforms.
 
-| 📦 Project Name | 🌟 GitHub Stars Badge | 📜 License | 🛠️ Primary Tech Stack | 📌 Description & Ecosystem Role |
+| 📦 Project Name | 🌟 GitHub_Stars_Badge | 📜 License | 🛠️ Primary Tech Stack | 📌 Description & Ecosystem Role |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI)** 🤖 | [![Stars](https://img.shields.io/github/stars/Project-MONAI/MONAI?style=social&color=white)](https://github.com/Project-MONAI/MONAI/stargazers) | Apache-2.0 | Python, PyTorch | AI toolkit for healthcare imaging, deep learning segmentation, classification, and research pipelines. |
 | **[OHIF Viewer](https://github.com/OHIF/Viewers)** 👁️ | [![Stars](https://img.shields.io/github/stars/OHIF/Viewers?style=social&color=white)](https://github.com/OHIF/Viewers/stargazers) | MIT | JavaScript, React, DICOMweb | Leading open-source, zero-footprint web DICOM viewer for diagnostic display, integrated with Orthanc and dcm4chee. |
